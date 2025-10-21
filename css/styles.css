@@ -2,47 +2,44 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  background-color: #f8f8f8; /* subtle background for flyer look */
+  padding: 2rem;
+  background-color: #f8f8f8; /* light background for flyer effect */
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
-/* ---------- Flyer container ---------- */
-.flyer {
-  background-color: #ffffff;
+/* ---------- Container / Flyer box ---------- */
+.container {
+  background-color: #fff;
   max-width: 800px;
   width: 100%;
   padding: 30px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  border-radius: 10px;
   border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* ---------- Header (logo + titles) ---------- */
+/* ---------- Header (logo + titles stacked) ---------- */
 header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  text-align: center;
   margin-bottom: 30px;
 }
 
 header img {
   height: 80px;
+  display: block;
+  margin: 0 auto 15px auto;
 }
 
 header h1 {
-  font-size: 2rem;
   margin: 0;
+  font-size: 2rem;
 }
 
 header h2 {
+  margin: 5px 0 0 0;
   font-size: 1.2rem;
   font-weight: normal;
-  margin: 5px 0 0 0;
 }
 
 /* ---------- Main content ---------- */
