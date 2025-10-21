@@ -9,9 +9,10 @@ body {
 /* ---------- Header (logo + titles) ---------- */
 header {
   display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 1rem 2rem;  /* gives the same left margin as main content */
+  flex-direction: column; /* stacks logo on top of title */
+  align-items: center;    /* centers horizontally */
+  gap: 10px;              /* space between logo and title */
+  padding: 1rem 0;
   border-bottom: 2px solid #ccc;
 }
 
