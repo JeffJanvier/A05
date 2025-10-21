@@ -1,16 +1,17 @@
-
+/* ---------- General page styles ---------- */
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background-color: #f8f8f8; /* subtle background for contrast */
+  background-color: #f8f8f8; /* subtle background for flyer look */
   display: flex;
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
 
+/* ---------- Flyer container ---------- */
 .flyer {
   background-color: #ffffff;
   max-width: 800px;
@@ -21,7 +22,7 @@ body {
   border: 1px solid #ccc;
 }
 
-
+/* ---------- Header (logo + titles) ---------- */
 header {
   display: flex;
   align-items: center;
@@ -44,6 +45,7 @@ header h2 {
   margin: 5px 0 0 0;
 }
 
+/* ---------- Main content ---------- */
 main h3 {
   font-size: 1.5rem;
   margin-top: 1.5rem;
@@ -67,6 +69,7 @@ main ul {
   padding-left: 20px;
 }
 
+/* ---------- Ticket packages box ---------- */
 .ticket-box {
   border: 1px solid #ccc;
   padding: 15px;
@@ -75,6 +78,7 @@ main ul {
   margin: 15px 0;
 }
 
+/* ---------- Footer ---------- */
 footer {
   text-align: center;
   margin-top: 30px;
