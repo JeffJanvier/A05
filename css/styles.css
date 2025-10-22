@@ -61,5 +61,4 @@ footer {
   max-width: 800px;   /* match main content width */
   margin: 0 auto;     /* center footer horizontally */
   padding: 1rem 2rem; /* keep some internal padding */
-  text-align: left;   /* align text with main content */
 }
