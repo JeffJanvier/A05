@@ -10,7 +10,7 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  text-align: left;
+  text-align: center;
   padding: 2rem 3rem;
 }
 
@@ -68,7 +68,7 @@ ul li {
 
 /* ---------- Footer ---------- */
 footer {
-  text-align: left;
+  text-align: center;
   font-size: 0.9rem;
   margin-top: 2rem;
   padding: 1rem 3rem;
