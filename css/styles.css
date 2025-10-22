@@ -57,9 +57,10 @@ ul {
 
 /* ---------- Footer ---------- */
 footer {
+  max-width: 800px;  /* match main content width */
+  margin: 0 auto;    /* centers footer horizontally */
   text-align: left;
-  padding: 1rem 2rem;  /* aligns left with same 2rem padding */
-  border-top: none; 
-  margin-top: 2rem;
+  padding: 1rem 2rem;
+  border-top: 2px solid #ccc;
   font-size: 0.9rem;
 }
