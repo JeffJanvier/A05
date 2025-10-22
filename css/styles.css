@@ -10,8 +10,7 @@ body {
 
 /* ---------- Header ---------- */
 header {
-  text-align: left;
-  padding: 1.5rem 3rem 0 3rem;
+  margin: 0.3rem 0 0 0;
 }
 
 header img {
