@@ -13,7 +13,7 @@ header {
   align-items: center;    /* centers horizontally */
   gap: 10px;              /* space between logo and title */
   padding: 1rem 0;
-  border-bottom: 2px solid #ccc;
+  border-bottom: none; 
 }
 
 header img {
@@ -59,7 +59,7 @@ ul {
 footer {
   text-align: left;
   padding: 1rem 2rem;  /* aligns left with same 2rem padding */
-  border-top: 2px solid #ccc;
+  border-top: none; 
   margin-top: 2rem;
   font-size: 0.9rem;
 }
