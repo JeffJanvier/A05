@@ -10,7 +10,7 @@ body {
 header {
   display: flex;
   flex-direction: column; /* stacks logo on top of title */
-  align-items: center;    /* centers horizontally */
+  align-items: flex-start;   
   gap: 10px;              /* space between logo and title */
   padding: 1rem 0;
   border-bottom: none; 
