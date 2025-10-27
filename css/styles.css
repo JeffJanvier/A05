@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  text-align: center;  /* center everything under the logo */
+  text-align: left; 
   padding-bottom: 1rem;
   border-bottom: none;
 }
@@ -24,7 +24,7 @@ header {
 header img {
   height: 90px;
   display: block;   /* makes image a block element to control margin */
-  margin: 0 auto 0.5rem auto;  /* center horizontally, margin below */
+  margin: 0 auto 0.5rem 0;  /* center horizontally, margin below */
 }
 
 header h2 {
